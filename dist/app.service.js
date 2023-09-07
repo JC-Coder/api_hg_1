@@ -15,7 +15,7 @@ let AppService = exports.AppService = class AppService {
         });
         const now = new Date();
         const utcTime = new Date(now.getTime() + now.getTimezoneOffset() * 60000).toISOString();
-        const githubFileUrl = 'https://github.com/JC-Coder/api_hg_1';
+        const githubFileUrl = 'https://github.com/JC-Coder/api_hg_1/blob/main/dist/main.js';
         const githubRepoUrl = 'https://github.com/JC-Coder/api_hg_1';
         return {
             slack_name: slackName !== null && slackName !== void 0 ? slackName : 'Joseph Chimezie',
