@@ -13,7 +13,6 @@ export class AppService {
         now.getTime() + now.getTimezoneOffset() * 60000 // Adjust for the local timezone offset
     ).toISOString();
 
-    // TODO: update link
     const githubFileUrl =
         'https://github.com/JC-Coder/api_hg_1/blob/main/dist/main.js';
     const githubRepoUrl = 'https://github.com/JC-Coder/api_hg_1';
