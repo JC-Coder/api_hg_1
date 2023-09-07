@@ -15,8 +15,8 @@ export class AppService {
 
     // TODO: update link
     const githubFileUrl =
-        'https://github.com/username/repo/blob/main/file_name.ext';
-    const githubRepoUrl = 'https://github.com/username/repo';
+        'https://github.com/JC-Coder/api_hg_1';
+    const githubRepoUrl = 'https://github.com/JC-Coder/api_hg_1';
 
     return {
       slack_name: slackName ?? 'Joseph Chimezie',
